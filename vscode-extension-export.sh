@@ -9,6 +9,8 @@ do
   echo code --install-extension $extension >> $file
 done
 
-echo -e ${green}CREATE${no_color} $file
+if [ -f $file ]; then
+  echo -e ${green}CREATE${no_color} $file
+fi
 
 exit 0
