@@ -1,6 +1,6 @@
 # VS Code Extension Export
 
-A simple shell script that generates an install script for your VS Code extensions. Handy for backing up your extensions and quickly installing them on a new machine.
+A simple shell script that generates an install script for your VS Code extensions. Handy for extension backup and quick installation on a new machine.
 
 ## Export Extensions
 
