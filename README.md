@@ -1,8 +1,14 @@
 # VS Code Extension Export
 
-A simple utility that generates an install script for your VS Code extensions. Handy for extension backup and quick installation on a new machine.
+A simple utility that exports your VS Code extensions and generates an install script.
 
-## Export Extensions
+## Benefits
+
+- 💾 Backup your extensions
+- 🤖 Automate the extension installation
+- 🚀 Speed up bulk installs
+
+## Export
 
 Simply run the script in your terminal.
 
@@ -12,7 +18,7 @@ Simply run the script in your terminal.
 
 This will produce a `vscode-extension-install.sh` file.
 
-## Install Extensions
+## Install
 
 On your target machine, run the newly created install script in your terminal.
 
