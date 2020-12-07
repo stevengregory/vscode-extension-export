@@ -4,13 +4,22 @@ A simple utility that exports your VS Code extensions and generates an install s
 
 ## Benefits
 
-- 💾 Backup your extensions
-- 🤖 Automate the extension installation
-- 🚀 Speed up bulk installs
+- Backup your extensions
+- Automate the extension installation
+- Speed up bulk installs
+
+## Getting Started
+
+Clone the repository and change directory.
+
+```bash
+git clone https://github.com/stevengregory/vscode-extension-export.git
+cd vscode-extension-export
+```
 
 ## Export
 
-Simply run the script in your terminal.
+Run the script in your terminal.
 
 ```bash
 ./scripts/run.sh
