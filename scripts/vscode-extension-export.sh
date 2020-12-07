@@ -10,9 +10,6 @@ fi
 
 if [ ! -d dist ]; then
   mkdir -p dist;
-fi
-
-if [ ! -f $file ]; then
   for extension in $(code --list-extensions)
   do
     echo code --install-extension $extension >> $file
