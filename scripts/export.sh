@@ -23,8 +23,3 @@ export_extensions() {
 get_extensions() {
   code --list-extensions
 }
-
-clear_build
-export_extensions
-
-exit 0

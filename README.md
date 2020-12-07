@@ -7,7 +7,7 @@ A simple utility that generates an install script for your VS Code extensions. H
 Simply run the script in your terminal.
 
 ```bash
-./scripts/export.sh
+./scripts/run.sh
 ```
 
 This will produce a `vscode-extension-install.sh` file.
