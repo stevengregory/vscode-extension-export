@@ -17,7 +17,7 @@ This will produce a `vscode-extension-install.sh` file.
 On your target machine, run the newly created install script in your terminal.
 
 ```bash
-./vscode-extension-install.sh
+./dist/vscode-extension-install.sh
 ```
 
 This will install your exported extensions.
