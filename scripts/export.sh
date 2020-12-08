@@ -16,6 +16,7 @@ export_extensions() {
     do
       echo code --install-extension $extension >> $file
     done
+    chmod +x $file
     get_message $file
   fi
 }
